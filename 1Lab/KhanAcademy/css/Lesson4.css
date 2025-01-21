@@ -1,0 +1,42 @@
+#flinstones{
+font-family: sans-serif;
+}
+
+#jetsons{
+font-family: serif;
+}
+
+#addams{
+font-family: fantasy;
+}
+
+.big{
+    font-size: 15px;
+}
+
+.bigger{
+    font-size:20px;
+}
+
+.quote{
+    font-style: italic;
+}
+
+.declaration{
+    font-style: oblique;
+    text-decoration: underline;
+    
+}
+.LH{
+    line-height: 150px;
+    text-align: center;
+}
+.Blog-Content{
+    text-align: center;
+    font-size: 50px;
+}
+
+.BLOG{
+    text-align: center;
+    font-size: 50px;
+}
