@@ -1,0 +1,157 @@
+.RightSide{
+    margin:50px;
+    margin-top: 140px;
+    width: 400px;
+    height: 500px;
+    background-color: white;
+    margin-right: 200px;
+    box-shadow: 0px 4px 6px #979dac;
+    display: flex;              
+    flex-direction: column;     
+    align-items: center;       
+    justify-content: center; 
+    
+    
+}
+.Photo{
+    margin-left: 170px;
+}
+.Line{
+    display: flex;
+    justify-content: space-between;
+    margin: 40px;
+    align-items: center;
+}
+
+
+.form-control-upper{
+    margin: 10px;
+    width: 300px;
+    height: 30px;
+    
+}
+.form-control-upperv2{
+    margin: 10px;
+    width: 300px;
+    height: 30px;
+   
+}
+
+.btn{
+    width: 307px;
+    height: 40px;
+    background-color: #0466c8;
+    color:white;
+    border-radius: 7px;
+    border-color: #0466c8;
+    
+    
+}
+.ForgotPassword{
+    text-decoration: none;
+    color:#0466c8;
+    margin:20px;
+}
+.ForgotPassword:hover{
+    color:red
+}
+.btn:hover{
+    color:black
+}
+
+.Create{
+    text-align: center;
+    text-decoration: none;
+    color: white;
+}
+
+.Create:hover{
+    color:red
+}
+.instaLogo{
+    height: 100px;
+    width: 300px;
+}
+
+.Or{
+    text-align: center;
+    margin-top: 20px;
+}
+
+.Fblogo{
+    height: 30px;
+    margin-right: 2px;
+}
+
+.UsingFB{
+    display: flex;
+    text-align: center;
+    flex-direction: row;
+    align-items: center;
+}
+
+.VoitiFB{
+    font-size: 17px;
+    color:#0466c8;
+}
+
+.RightUnder{
+    height: 40px;
+    width: 410px;
+    align-items: center;
+    margin-right: 145px;
+    box-shadow: 0px 4px 6px #979dac;
+
+}
+.OWNright{
+    display: flex;              
+    flex-direction: column;     
+    align-items: center;       
+    justify-content: center; 
+    
+}
+.IntoUnder{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    
+}
+.Reg{
+    font-size:20px;
+    align-items: center;
+    margin: 5px;
+    margin-top: 8px;
+    
+}
+.RegReg{
+    margin-top: 8px;
+    font-size: 17px;
+    text-decoration: none;
+    color: #0466c8;
+    
+}
+
+.RegReg:hover{
+    color:red;
+}
+.app{
+    height: 90px;
+    width: 170px;
+    margin: 10px;
+
+}
+.google{
+    height: 70px;
+    width: 170px;
+    margin: 10px;
+    margin-right: 150px;
+}
+
+.IMGS{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+}

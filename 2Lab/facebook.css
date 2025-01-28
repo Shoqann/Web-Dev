@@ -1,0 +1,94 @@
+.RightSide{
+    margin:50px;
+    margin-top: 140px;
+    width: 400px;
+    height: 500px;
+    background-color: white;
+    margin-right: 200px;
+    box-shadow: 0px 4px 6px #979dac;
+    display: flex;              
+    flex-direction: column;     
+    align-items: center;       
+    justify-content: center; 
+    
+    
+}
+.LeftSide{
+    margin:50px;
+    margin-left: 300px;
+    margin-top: 50px;
+    
+}
+.Line{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.MainText{
+    color:blue;
+    font-size: 70px;
+    
+}
+
+.UnderMain{
+    font-size:30px;
+}
+
+body{
+    background-color: #f5f3f4;
+}
+.form-control-upper{
+    margin: 10px;
+    width: 300px;
+    height: 30px;
+    
+}
+.form-control-upperv2{
+    margin: 10px;
+    width: 300px;
+    height: 30px;
+   
+}
+.EmptyBox{
+    margin: 60px;
+
+}
+.btn{
+    margin: 10px;
+    width: 307px;
+    height: 40px;
+    background-color: #0466c8;
+    color:white
+    
+    
+}
+.ForgotPassword{
+    text-decoration: none;
+    color:#0466c8;
+    margin:40px;
+}
+.ForgotPassword:hover{
+    color:red
+}
+.btn:hover{
+    color:black
+}
+.DivCreate{
+    height: 50px;
+    width: 300px;
+    background-color: #a7c957;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+   
+}
+.Create{
+    text-align: center;
+    text-decoration: none;
+    color: white;
+}
+
+.Create:hover{
+    color:red
+}
