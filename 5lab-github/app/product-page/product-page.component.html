@@ -1,0 +1,34 @@
+<app-navbar></app-navbar>
+<main class = "container-fluid mt-5 mb-5">
+
+    <div class="row" pageBox>
+
+        <div class="col-lg-4">
+
+        </div>
+
+        <div class="col-lg-8">
+
+            <div class="row pageContent mt-5" *ngFor="let data of filterProductData">
+
+                <div class="col-lg-4">
+                    <img src="{{data.pdImg}}">
+
+                </div>
+
+                <div class="col-lg-8">
+                    <h4>{{data.pdName}}</h4>
+                    <p>{{data.pdDesc}}</p>
+                    <p>{{data.pdPrice | number}}<img src="https://w7.pngwing.com/pngs/707/503/png-transparent-kazakhstani-tenge-%D0%A1%D0%B8%D0%BC%D0%B2%D0%BE%D0%BB-%D1%82%D0%B5%D0%BD%D0%B3%D0%B5-national-bank-of-kazakhstan-coin-angle-text-rectangle.png" alt="тенге" style="width: 16px; height: 16px; vertical-align: middle;" /></p>
+                    <a class="btn btn-md btn-dark" [href]="data.pdUrl" target="_blank">просмотреть<i class="bi bi-arrow-right"></i></a>
+                </div>
+
+            </div>
+
+
+
+        </div>
+
+    </div>
+
+</main>
