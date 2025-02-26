@@ -1,0 +1,75 @@
+.albums {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+  }
+  
+  .albums h2 {
+    text-align: center;
+    font-size: 2.5em;
+    margin-bottom: 30px;
+    color: #333;
+  }
+  
+  .album-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .album-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid #ddd;
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    background-color: #fafafa;
+  }
+  
+  .album-title {
+    font-size: 1.2em;
+    color: #333;
+  }
+  
+  .album-actions a {
+    margin-left: 10px;
+    text-decoration: none;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 3px;
+    font-size: 0.9em;
+  }
+  
+  .album-actions a.view {
+    background-color: #007bff;
+  }
+  
+  .album-actions a.edit {
+    background-color: #28a745;
+  }
+  
+  .album-actions a.delete {
+    background-color: #dc3545;
+  }
+  
+  .create-album {
+    text-align: center;
+    margin-top: 30px;
+  }
+  
+  .create-album .btn.create {
+    text-decoration: none;
+    color: #fff;
+    background-color: #007bff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .create-album .btn.create:hover {
+    background-color: #0056b3;
+  }
+  
